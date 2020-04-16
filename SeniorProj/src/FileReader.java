@@ -6,40 +6,40 @@ public class FileReader {
 
 	public static void main(String[] args) throws FileNotFoundException {
 
-		String url;
-		Scanner fileScan, urlScan;
+		String token;
+		Scanner fileScan, tokenScan;
 		int i =1;
-		fileScan = new Scanner(new File("website.inp"));
+		fileScan = new Scanner(new File("Test.inp"));
 
 		while (fileScan.hasNext()) {
 			System.out.print(i + "    ");
-			url = fileScan.nextLine();
+			token = fileScan.nextLine();
 			// Conditional explanations Start
 			
-			if(url.contains("if")){
+			if(token.contains("if")){
 				System.out.print("LOGIC ");
 			}
 			
-			if(url.contains("//")){
+			if(token.contains("//")){
 				System.out.print("SKIP ");
 			}
 			
-			if (url.contains("=")){
+			if (token.contains("=")){
 				System.out.print("OBJECT ");
 			}
 			
-			if(url.contains("public") || url.contains("private")){
+			if(token.contains("public") || token.contains("private")){
 				System.out.print("METHOD ");
 			}
 			// Conditional explanations end
 			
 			
-			urlScan = new Scanner(url);
-			urlScan.useDelimiter("");
+			tokenScan = new Scanner(token);
+			tokenScan.useDelimiter("");
 			
 
-			while (urlScan.hasNext())
-				System.out.print("" + urlScan.next());
+			while (tokenScan.hasNext())
+				System.out.print("" + tokenScan.next());
 			System.out.println();
 			i++;
 		}
