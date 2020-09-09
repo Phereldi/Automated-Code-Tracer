@@ -1,8 +1,6 @@
 
-public class DebugView {
-
-	public static void main(String args[]) {
-       
-    }
-
+public class DebugView{
+	public static void execute(){
+ 
+	}
 }
