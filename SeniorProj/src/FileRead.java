@@ -91,11 +91,6 @@ public class FileRead {
 			e.printStackTrace();
 		}
 	}
-	//C:/Users/reiki/git/SeniorProject/SeniorProj/src/TrinarySearch.java 58 - 103
-	//C:/Users/reiki/Documents/NetBeansProjects/Heap/src/Heap.java  96 - 104
-	//C:/Users/reiki/git/SeniorProject/SeniorProj/Test.inp  57 - 69
-	//C:/Users/reiki/git/SeniorProject/SeniorProj/Test2.inp  58- 103
-	//C:/Users/reiki/Documents/NetBeansProjects/HW4RamSortSelect/src/hw4ramsortselect/HW4RamSortSelect.java 93 - 101
 
 	/**
 	 * @param reader
@@ -616,7 +611,6 @@ public class FileRead {
 		      System.out.println(diagnostic.getSource());
 		      System.out.println(diagnostic.getMessage(null));
 		    }
-		    //System.out.println("Success: " + success);
 
 		    if (success) {
 		      try {
