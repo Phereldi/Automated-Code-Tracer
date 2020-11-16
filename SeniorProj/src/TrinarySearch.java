@@ -1,3 +1,10 @@
+
+/**
+ * 
+ * @author Myles Thomas JAN/27/2019 CSCI 333 This code divides an array of
+ *         elements into 3 parts and searches for the target element within each
+ *         third.
+ */
 public class TrinarySearch {
 
 	/**
